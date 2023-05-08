@@ -1,9 +1,10 @@
 /****** General ***********/
 * {
-  font-family: "Raleway", sans-serif;
   text-decoration: none;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  list-style: none;
 }
 
 :root {
@@ -15,6 +16,11 @@
 
 html {
   font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+.mobile {
+  display: none;
 }
 
 a {
@@ -32,6 +38,23 @@ img {
 body {
   display: flex;
   justify-content: center;
+}
+
+input,
+button {
+  border: none;
+  background: white;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 .main-container {
@@ -75,6 +98,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .logo {
@@ -95,6 +119,49 @@ header {
 .nav-link:hover {
   color: var(--main-color);
   border-top: 2px solid var(--main-color);
+}
+
+/* Search form */
+
+.search {
+  padding: 10px;
+}
+
+.search-title {
+  margin-bottom: 10px;
+}
+
+.search-text {
+  margin-bottom: 30px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.search-form > * {
+  padding: 15px;
+}
+
+.search-input {
+  max-width: 160px;
+}
+
+.search-icon {
+  background: var(--main-bg-color);
+  border-radius: 15px 0 0 15px;
+}
+
+.search-icon i {
+  color: black;
+}
+
+.search-btn {
+  border-radius: 0 15px 15px 0;
+  background: var(--main-color);
+  color: white;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -199,5 +266,9 @@ header {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+  .nav-link:hover {
+    border-bottom: 2px solid var(--main-color);
+    border-top: none;
+    padding-bottom: 10px;
+  }
 }
