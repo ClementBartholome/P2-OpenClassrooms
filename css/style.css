@@ -125,7 +125,7 @@ header {
 /* Search form */
 
 .search {
-  padding: 10px;
+  padding: 15px;
 }
 
 .search-title {
@@ -149,7 +149,7 @@ header {
 }
 
 .search-input {
-  max-width: 160px;
+  max-width: 188px;
 }
 
 .search-icon {
@@ -203,8 +203,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   border: 1px solid #d9d9d9;
   border-radius: 50%;
   padding: 5px;
@@ -302,6 +302,34 @@ header {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+}
+
+/* Activites */
+
+.activites {
+  padding: 30px;
+}
+
+.activites-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 33px;
+}
+
+.activites-cards .card {
+  width: 25%;
+  padding: 0;
+}
+
+.activites-cards img {
+  height: 380px;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.activites-cards .card-title {
+  padding: 20px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
