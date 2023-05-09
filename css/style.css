@@ -480,6 +480,10 @@ footer {
     flex-direction: column-reverse;
   }
 
+  .hebergements-and-populaires section {
+    border-radius: 0;
+  }
+
   .hebergements-and-populaires .hebergements {
     background-color: white;
   }
