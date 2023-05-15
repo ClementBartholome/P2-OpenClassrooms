@@ -475,8 +475,11 @@ footer {
   }
 
   .filters-content {
-    font-size: 14px;
     width: 128px;
+  }
+
+  .filters-text {
+    font-size: 14px;
   }
 
   .hebergements-and-populaires {
