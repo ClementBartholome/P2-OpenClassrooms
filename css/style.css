@@ -107,7 +107,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   margin-left: -20px;
 }
 
@@ -441,6 +441,10 @@ footer {
   footer {
     flex-direction: column;
     gap: 15px;
+  }
+
+  header {
+    margin-bottom: 30px;
   }
 
   .main-container {
