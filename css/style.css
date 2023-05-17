@@ -160,7 +160,7 @@ header {
 }
 
 .search-input {
-  max-width: 188px;
+  max-width: 170px;
   border: 1px solid var(--main-bg-color);
 }
 
